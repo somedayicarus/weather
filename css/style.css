@@ -1,0 +1,54 @@
+body {
+	background-color: #273A3D;
+	color: #E6E6E6;
+	font-family: 'Open Sans Condensed', 'Work Sans', helvetica, sans-serif;
+	letter-spacing: 1px
+}
+
+
+main {
+	max-width: 960px;
+	margin: 200px auto 20px;
+}
+
+ul {
+	list-style-type: none;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-padding-start: 0;
+}
+
+form, .forecast {
+	margin: 60px;
+	text-align: center;
+}
+
+.forecast li {
+	display: inline-block;
+	text-align: center;
+	margin: 20px;
+	
+	font-size: 18px;
+
+}
+
+label {
+	display: none;
+}
+
+input {
+	display: block;
+	width: 600px;
+	margin: 20px auto 0;
+	background-color: #273A3D;
+	border: 1.5px solid #85FFC7;
+	padding: 6px;
+	text-align: center;
+	font-size: 30px;
+}
+
+input:focus {
+	outline: none;
+}
